@@ -1,0 +1,14 @@
+# Local-only artifacts that should never end up in the public mirror
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.p8
+google-service-account.json
+GoogleService-Info.plist
+node_modules/
+.DS_Store
+.vscode/
+.idea/
